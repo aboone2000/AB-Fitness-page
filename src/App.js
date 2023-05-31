@@ -3,9 +3,9 @@ import {React} from 'react';
 import './App.css';
 
 import Navigation from './Components/Navigation';
-import Home from './Components/Home Page/Home';
+import Home from './Components/Pages/Home Page/Home';
 
-import ExerciseDetails from './Components/ExerciseDetails';
+import ExerciseDetails from './Components/Pages/ExerciseDetails';
 import Exercises from './Components/Exercises/Exercises';
 
 
