@@ -1,19 +1,20 @@
 import {BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import {React} from 'react';
 import './App.css';
-
+import { Box } from '@mui/material';
 import Navigation from './Components/Navigation';
-import Home from './Components/Pages/Home Page/Home';
+import Home from './Components/Page/Home Page/Home';
 
-import ExerciseDetails from './Components/Pages/ExerciseDetails';
+import ExerciseDetails from './Components/Page/ExerciseDetails';
 import Exercises from './Components/Exercises/Exercises';
+import Footer from './Components/Footer';
 
 
 function App() {
 
   
   return (
-    <div className="App">
+    <Box className="App">
       <Router>
       <Navigation/>
         <Routes>
@@ -25,8 +26,8 @@ function App() {
           <Route></Route>
         </Routes>
       </Router>
-      
-    </div>
+      <Footer/>
+    </Box>
   );
 }
 
