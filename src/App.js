@@ -14,7 +14,7 @@ function App() {
 
   
   return (
-    <Box className="App">
+    <Box className="App" width="400px" sx={{width:{xl:'1488px'} }} m="auto">
       <Router>
       <Navigation/>
         <Routes>
